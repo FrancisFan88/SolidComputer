@@ -58,13 +58,14 @@ public class Computer : IDevice , IComputer
 {
 	public string Calculate()
     {
-        throw new NotImplementedException();
-    }
+		return "Calculating";
+	}
 
     public string Motherboarding()
     {
-        throw new NotImplementedException();
-    }
+		//throw new NotImplementedException();
+		return "Producing Power";
+	}
 
     public string ProducePower()
     {
@@ -74,7 +75,7 @@ public class Computer : IDevice , IComputer
 
     public string StoringData()
     {
-		return "Writing Data";
+		return "Storing Data";
 	}
 
     public void TestComputer()
@@ -88,29 +89,29 @@ public class Computer : IDevice , IComputer
 
     public string WritingData()
     {
-        throw new NotImplementedException();
-    }
+		return "Writing Data";
+	}
 }
 
 public class Mobile : IDevice, IMobile
 {
     public string Calculate()
     {
-        throw new NotImplementedException();
-    }
+		return "Calculating";
+	}
 
     public string Motherboarding()
     {
-        throw new NotImplementedException();
-    }
+		return "Connecting everything";
+	}
 
     public string ProduceBattery()
     {
-        throw new NotImplementedException();
-    }
+		return "Charging Battery";
+	}
 	public string DisplayData()
 	{
-		throw new NotImplementedException();
+		return "Displaying Data";
 	}
 	public void TestMobile()
 	{
